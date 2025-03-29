@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* aplicar bien el padding */
+    text-decoration: none;
+    /* quita la linea del a */
+    list-style: none;
+    /* quita las bolitas de las listas */
+
+
+}
+
+
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* para hacer que se centre, es decir cuanto llegue a los 1200 pxs e centra el contenido para que no se desborde */
+
+}
+
+.header {
+
+    background-color: #ebe9e9;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+
+}
+.header-contenido {
+    text-align: center;
+   
+
+}
+.header-contenido h2 {
+    text-align: center;
+    margin-bottom: 30px;
+   
+
+}
+.header-contenido p {
+    margin-top: 20px;
+
+}
+
+
+.menu {
+    background-color: rgb(10, 111, 179);
+    position: absolute;
+    max-height: 60px;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    display: flex;
+}
+
+
+.navegacion{
+    margin-right: -30px;
+    width: 40%;
+    justify-content: space-between;
+    display: flex;
+}
+.navegacion ul li{
+    padding: 0 20px
+}
+.navegacion img{
+    width: 20px;
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    right: 10px;
+    transform: translate(-50%, 78%)
+}
+.navegacion a {
+    color: #ffffff;
+}
+
+
+.menu .navegacion ul li{
+    position: relative;
+    float: left;
+
+}
+.menu .navegacion ul li a {
+    font-size: 18px;
+    padding: 20px;
+    /*en todas las direcciones d ecada imagen*/
+    display: block;
+    /*para que el padding se coloque bien */
+    font-weight: 600;
+}
+
+
+    
+   
+
+
+
+
+
+/* login */
+
+.formulario{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    padding: 10px;
+    background-color: aliceblue;
+
+}
+
+.conteiner-1{
+    background-color:white;
+    max-width: 500px;
+    width: 100%;
+    padding: 25px 30px ;
+    border-radius: 5px;
+}
+.conteiner-1 .title{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.conteiner-1 form{
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin: 10px 12px 0;
+
+}
+form .form-grupo{
+    margin-bottom: 15px;
+    width: calc(100%2-20px);
+
+}
+
+form samp{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+
+}
+form .registro {
+    text-align: center;
+    justify-content: center;
+}
+
+.form-grupo input{
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    border-bottom-width: 2px; 
+    transition: all 0.3 ease;
+}
+.form-grupo input:focus,
+.form-grupo input:valid{
+    border-color: skyblue;
+
+}
+form .botonc{
+    width: 100%;
+    height: 40px;
+    margin: 40px 0;
+    
+}
+
+form .botonc input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    cursor: pointer ;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none; 
+    border-radius: 5px;
+    background-color:blue;
+}
+
+
+
+
+
